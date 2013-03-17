@@ -1,10 +1,10 @@
-log-objective-c
+log.objective-c
 ===
 
 Introduction
 ---
 
-`log-objective-c` is a set of macros over a simple formatting layer over `NSLog`. `log-objective-c` is strongly oriented around key-value logging, logging both the variable name and the variable value.
+`log.objective-c` is a set of macros over a simple formatting layer over `NSLog`. `log.objective-c` is strongly oriented around key-value logging, logging both the variable name and the variable value.
 
 
 ### Sample
@@ -50,8 +50,8 @@ If required the user can then copy the logs and email them to the relevant suppo
 Wiki Documentation
 ---
 
-* [Incorporating into your Project](https://github.com/rlong/log-objective_c/wiki/Incorporating)
-* [Log Levels](https://github.com/rlong/log-objective_c/wiki/LogLevels)
-* [API](https://github.com/rlong/log-objective_c/wiki/API)
+* [Incorporating into your Project](https://github.com/rlong/log.objective_c/wiki/Incorporating)
+* [Log Levels](https://github.com/rlong/log.objective_c/wiki/LogLevels)
+* [API](https://github.com/rlong/log.objective_c/wiki/API)
 * Tips
-  * [Set the name of the main thread.](https://github.com/rlong/log-objective_c/wiki/tip.SetMainThreadName)
+  * [Set the name of the main thread.](https://github.com/rlong/log.objective_c/wiki/tip.SetMainThreadName)
