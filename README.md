@@ -53,5 +53,6 @@ Wiki Documentation
 * [Incorporating into your Project](https://github.com/rlong/log.objective_c/wiki/Incorporating)
 * [Log Levels](https://github.com/rlong/log.objective_c/wiki/LogLevels)
 * [API](https://github.com/rlong/log.objective_c/wiki/API)
+* [Alternatives](https://github.com/rlong/log.objective_c/wiki/Alternatives)
 * Tips
   * [Set the name of the main thread.](https://github.com/rlong/log.objective_c/wiki/tip.SetMainThreadName)
