@@ -1,4 +1,4 @@
-log.objective-c
+log.objective_c
 ===
 
 Introduction
