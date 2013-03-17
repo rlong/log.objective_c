@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE2FB7C616BC9A5800578F99 /* InitialWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2FB7C516BC9A5800578F99 /* InitialWindow.xib */; };
+		AE2FB7FB16BC9B1C00578F99 /* InitialWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2FB7FA16BC9B1C00578F99 /* InitialWindowController.m */; };
+		AE2FB7FE16BC9B4500578F99 /* InitialWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2FB7FD16BC9B4500578F99 /* InitialWindow.m */; };
+		AE50920116901B48008AEF68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50920016901B48008AEF68 /* Cocoa.framework */; };
+		AE50920B16901B48008AEF68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE50920916901B48008AEF68 /* InfoPlist.strings */; };
+		AE50921116901B48008AEF68 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE50920F16901B48008AEF68 /* Credits.rtf */; };
+		AE50921416901B48008AEF68 /* AppDelegateOsx.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50921316901B48008AEF68 /* AppDelegateOsx.m */; };
+		AE50921716901B48008AEF68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE50921516901B48008AEF68 /* MainMenu.xib */; };
+		AE50922D16901C2B008AEF68 /* mainOsx.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50922C16901C2B008AEF68 /* mainOsx.m */; };
+		AE50925216901CED008AEF68 /* JBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50924516901CED008AEF68 /* JBLog.m */; };
+		AE50925316901CED008AEF68 /* JBLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50924A16901CED008AEF68 /* JBLogHelper.m */; };
+		AE50925516901CED008AEF68 /* JBSimpleLogConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50924F16901CED008AEF68 /* JBSimpleLogConsumer.m */; };
+		AE50925616901CED008AEF68 /* JBSimpleLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50925116901CED008AEF68 /* JBSimpleLogEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE2FB7C516BC9A5800578F99 /* InitialWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialWindow.xib; sourceTree = "<group>"; };
+		AE2FB7F916BC9B1C00578F99 /* InitialWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialWindowController.h; sourceTree = "<group>"; };
+		AE2FB7FA16BC9B1C00578F99 /* InitialWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialWindowController.m; sourceTree = "<group>"; };
+		AE2FB7FC16BC9B4500578F99 /* InitialWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialWindow.h; sourceTree = "<group>"; };
+		AE2FB7FD16BC9B4500578F99 /* InitialWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialWindow.m; sourceTree = "<group>"; };
+		AE5091FC16901B48008AEF68 /* sample-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50920016901B48008AEF68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE50920316901B48008AEF68 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AE50920416901B48008AEF68 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE50920516901B48008AEF68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE50920816901B48008AEF68 /* sample-osx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample-osx-Info.plist"; sourceTree = "<group>"; };
+		AE50920A16901B48008AEF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE50920E16901B48008AEF68 /* sample-osx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample-osx-Prefix.pch"; sourceTree = "<group>"; };
+		AE50921016901B48008AEF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AE50921216901B48008AEF68 /* AppDelegateOsx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateOsx.h; sourceTree = "<group>"; };
+		AE50921316901B48008AEF68 /* AppDelegateOsx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateOsx.m; sourceTree = "<group>"; };
+		AE50921616901B48008AEF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE50922C16901C2B008AEF68 /* mainOsx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainOsx.m; sourceTree = "<group>"; };
+		AE50924416901CED008AEF68 /* JBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLog.h; sourceTree = "<group>"; };
+		AE50924516901CED008AEF68 /* JBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLog.m; sourceTree = "<group>"; };
+		AE50924616901CED008AEF68 /* JBLogConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLogConsumer.h; sourceTree = "<group>"; };
+		AE50924716901CED008AEF68 /* JBLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLogEntry.h; sourceTree = "<group>"; };
+		AE50924816901CED008AEF68 /* JBLoggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLoggable.h; sourceTree = "<group>"; };
+		AE50924916901CED008AEF68 /* JBLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLogHelper.h; sourceTree = "<group>"; };
+		AE50924A16901CED008AEF68 /* JBLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLogHelper.m; sourceTree = "<group>"; };
+		AE50924B16901CED008AEF68 /* JBLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLogLevel.h; sourceTree = "<group>"; };
+		AE50924C16901CED008AEF68 /* JBLogUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLogUnitTest.h; sourceTree = "<group>"; };
+		AE50924D16901CED008AEF68 /* JBLogUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLogUnitTest.m; sourceTree = "<group>"; };
+		AE50924E16901CED008AEF68 /* JBSimpleLogConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSimpleLogConsumer.h; sourceTree = "<group>"; };
+		AE50924F16901CED008AEF68 /* JBSimpleLogConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSimpleLogConsumer.m; sourceTree = "<group>"; };
+		AE50925016901CED008AEF68 /* JBSimpleLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSimpleLogEntry.h; sourceTree = "<group>"; };
+		AE50925116901CED008AEF68 /* JBSimpleLogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSimpleLogEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5091F916901B47008AEF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50920116901B48008AEF68 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5091F116901B47008AEF68 = {
+			isa = PBXGroup;
+			children = (
+				AE50924316901CED008AEF68 /* log */,
+				AE50920616901B48008AEF68 /* sample-osx */,
+				AE5091FF16901B48008AEF68 /* Frameworks */,
+				AE5091FD16901B48008AEF68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5091FD16901B48008AEF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5091FC16901B48008AEF68 /* sample-osx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5091FF16901B48008AEF68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE50920016901B48008AEF68 /* Cocoa.framework */,
+				AE50920216901B48008AEF68 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE50920216901B48008AEF68 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE50920316901B48008AEF68 /* AppKit.framework */,
+				AE50920416901B48008AEF68 /* CoreData.framework */,
+				AE50920516901B48008AEF68 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AE50920616901B48008AEF68 /* sample-osx */ = {
+			isa = PBXGroup;
+			children = (
+				AE50920716901B48008AEF68 /* Supporting Files */,
+				AE50921216901B48008AEF68 /* AppDelegateOsx.h */,
+				AE50921316901B48008AEF68 /* AppDelegateOsx.m */,
+				AE50921516901B48008AEF68 /* MainMenu.xib */,
+				AE2FB7C516BC9A5800578F99 /* InitialWindow.xib */,
+				AE2FB7F916BC9B1C00578F99 /* InitialWindowController.h */,
+				AE2FB7FA16BC9B1C00578F99 /* InitialWindowController.m */,
+				AE2FB7FC16BC9B4500578F99 /* InitialWindow.h */,
+				AE2FB7FD16BC9B4500578F99 /* InitialWindow.m */,
+			);
+			path = "sample-osx";
+			sourceTree = "<group>";
+		};
+		AE50920716901B48008AEF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE50920816901B48008AEF68 /* sample-osx-Info.plist */,
+				AE50920916901B48008AEF68 /* InfoPlist.strings */,
+				AE50922C16901C2B008AEF68 /* mainOsx.m */,
+				AE50920E16901B48008AEF68 /* sample-osx-Prefix.pch */,
+				AE50920F16901B48008AEF68 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE50924316901CED008AEF68 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				AE50924416901CED008AEF68 /* JBLog.h */,
+				AE50924516901CED008AEF68 /* JBLog.m */,
+				AE50924616901CED008AEF68 /* JBLogConsumer.h */,
+				AE50924716901CED008AEF68 /* JBLogEntry.h */,
+				AE50924816901CED008AEF68 /* JBLoggable.h */,
+				AE50924916901CED008AEF68 /* JBLogHelper.h */,
+				AE50924A16901CED008AEF68 /* JBLogHelper.m */,
+				AE50924B16901CED008AEF68 /* JBLogLevel.h */,
+				AE50924C16901CED008AEF68 /* JBLogUnitTest.h */,
+				AE50924D16901CED008AEF68 /* JBLogUnitTest.m */,
+				AE50924E16901CED008AEF68 /* JBSimpleLogConsumer.h */,
+				AE50924F16901CED008AEF68 /* JBSimpleLogConsumer.m */,
+				AE50925016901CED008AEF68 /* JBSimpleLogEntry.h */,
+				AE50925116901CED008AEF68 /* JBSimpleLogEntry.m */,
+			);
+			name = log;
+			path = ../src/log;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5091FB16901B47008AEF68 /* sample-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50921A16901B48008AEF68 /* Build configuration list for PBXNativeTarget "sample-osx" */;
+			buildPhases = (
+				AE5091F816901B47008AEF68 /* Sources */,
+				AE5091F916901B47008AEF68 /* Frameworks */,
+				AE5091FA16901B47008AEF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-osx";
+			productName = "sample-osx";
+			productReference = AE5091FC16901B48008AEF68 /* sample-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5091F316901B47008AEF68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "objective-c-log";
+			};
+			buildConfigurationList = AE5091F616901B47008AEF68 /* Build configuration list for PBXProject "sample-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE5091F116901B47008AEF68;
+			productRefGroup = AE5091FD16901B48008AEF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5091FB16901B47008AEF68 /* sample-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5091FA16901B47008AEF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50920B16901B48008AEF68 /* InfoPlist.strings in Resources */,
+				AE50921116901B48008AEF68 /* Credits.rtf in Resources */,
+				AE50921716901B48008AEF68 /* MainMenu.xib in Resources */,
+				AE2FB7C616BC9A5800578F99 /* InitialWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5091F816901B47008AEF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50921416901B48008AEF68 /* AppDelegateOsx.m in Sources */,
+				AE50922D16901C2B008AEF68 /* mainOsx.m in Sources */,
+				AE50925216901CED008AEF68 /* JBLog.m in Sources */,
+				AE50925316901CED008AEF68 /* JBLogHelper.m in Sources */,
+				AE50925516901CED008AEF68 /* JBSimpleLogConsumer.m in Sources */,
+				AE50925616901CED008AEF68 /* JBSimpleLogEntry.m in Sources */,
+				AE2FB7FB16BC9B1C00578F99 /* InitialWindowController.m in Sources */,
+				AE2FB7FE16BC9B4500578F99 /* InitialWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE50920916901B48008AEF68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50920A16901B48008AEF68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE50920F16901B48008AEF68 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50921016901B48008AEF68 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AE50921516901B48008AEF68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50921616901B48008AEF68 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE50921816901B48008AEF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE50921916901B48008AEF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE50921B16901B48008AEF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sample-osx/sample-osx-Prefix.pch";
+				INFOPLIST_FILE = "sample-osx/sample-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE50921C16901B48008AEF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sample-osx/sample-osx-Prefix.pch";
+				INFOPLIST_FILE = "sample-osx/sample-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5091F616901B47008AEF68 /* Build configuration list for PBXProject "sample-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50921816901B48008AEF68 /* Debug */,
+				AE50921916901B48008AEF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE50921A16901B48008AEF68 /* Build configuration list for PBXNativeTarget "sample-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50921B16901B48008AEF68 /* Debug */,
+				AE50921C16901B48008AEF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5091F316901B47008AEF68 /* Project object */;
+}
