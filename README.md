@@ -4,7 +4,7 @@ log.objective-c
 Introduction
 ---
 
-`log.objective-c` is a set of macros over a simple formatting layer over `NSLog`. `log.objective-c` is strongly oriented around key-value logging, logging both the variable name and the variable value.
+`log.objective_c` is a set of macros over a simple formatting layer over `NSLog`. `log.objective_c` is strongly oriented around key-value logging, logging both the variable name and the variable value.
 
 
 ### Sample
